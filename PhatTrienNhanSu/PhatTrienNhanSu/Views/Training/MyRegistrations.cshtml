@@ -1,0 +1,37 @@
+﻿@using PhatTrienNhanSu.Service.TrainingService.Models
+@model IEnumerable<RegistrationDetail>
+
+@{
+    ViewData["Title"] = "Lịch sử đăng ký của tôi";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead class="table-light">
+        <tr>
+            <th>Chương trình</th>
+            <th>Khóa học</th>
+            <th>Ngày đăng ký</th>
+            <th>Trạng thái</th>
+            <th>Điểm</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reg in Model)
+        {
+            <tr>
+                <td>@reg.ProgramName</td>
+                <td><strong>@reg.CourseName</strong></td>
+                <td>@reg.RegisterDate.ToString("dd/MM/yyyy")</td>
+                <td>
+                    @{
+                        var statusClass = reg.Status == "Đã phê duyệt" ? "bg-success" : (reg.Status == "Chờ phê duyệt" ? "bg-warning text-dark" : "bg-secondary");
+                    }
+                    <span class="badge @statusClass">@reg.Status</span>
+                </td>
+                <td>@(reg.Score.HasValue? reg.Score.Value.ToString("N1") : "Chưa có")</td>
+            </tr>
+        }
+    </tbody>
+</table>
