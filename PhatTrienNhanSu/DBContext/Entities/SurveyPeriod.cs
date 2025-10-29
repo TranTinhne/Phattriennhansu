@@ -4,14 +4,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace PhatTrienNhanSu.DbContexts.Entities
 {
     [Table("SurveyPeriods")]
-    public class SurveyPeriod
+    public class SurveyPeriod : BaseEntity // Kế thừa từ BaseEntity
     {
-        [Key]
-        public int Id { get; set; }
-
-        [Required(ErrorMessage = "Tên kỳ khảo sát là bắt buộc.")]
+        [Required]
         [MaxLength(255)]
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         [Required]
         public DateTime StartDate { get; set; }
@@ -19,13 +16,8 @@ namespace PhatTrienNhanSu.DbContexts.Entities
         [Required]
         public DateTime EndDate { get; set; }
 
-        // Trạng thái kỳ khảo sát: 0 = Draft, 1 = Open, 2 = Closed
-        public byte Status { get; set; }
+        // Các cột Id, Status, CreatedBy, CreatedDate... đã có trong BaseEntity
 
-        public int CreatedBy { get; set; }
-        public DateTime CreatedDate { get; set; }
-
-        // Mối quan hệ điều hướng: Một kỳ khảo sát có nhiều phản hồi
         public virtual ICollection<EmployeeSurveyResponse> SurveyResponses { get; set; } = new List<EmployeeSurveyResponse>();
     }
 }

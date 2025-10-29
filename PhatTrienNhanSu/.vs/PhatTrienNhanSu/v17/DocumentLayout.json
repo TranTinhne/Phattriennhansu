@@ -3,100 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Migrations\\20251029102658_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBContext\\Migrations\\20251029102658_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\controllers\\surveycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\controllers\\surveycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\training\\myregistrations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\training\\myregistrations.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\training\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\training\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\survey\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\survey\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\training\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\training\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\controllers\\trainingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\controllers\\trainingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\trainingservice\\trainingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\trainingservice\\trainingcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\trainingservice\\trainingone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\trainingservice\\trainingone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\trainingservice\\trainingmany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\trainingservice\\trainingmany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\trainingservice\\trainingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\trainingservice\\trainingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\results\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\results\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\controllers\\providercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\controllers\\providercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\providerservice\\providermany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\providerservice\\providermany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\employeetrainingregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\employeetrainingregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\trainingcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\trainingcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\trainingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\trainingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\employeesurveyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\employeesurveyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\surveyperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\surveyperiod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\providerservice\\providerone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\providerservice\\providerone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\coursecatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\coursecatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\survey\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\survey\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\providerservice\\providermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\providerservice\\providermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\providerservice\\providercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\providerservice\\providercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\surveyservice\\surveycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\surveyservice\\surveycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\surveyservice\\surveymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\surveyservice\\surveymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\survey\\catalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\survey\\catalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\survey\\editcatalogitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\survey\\editcatalogitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\survey\\createcatalogitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\survey\\createcatalogitem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\provider\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\provider\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\provider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\provider\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\provider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\provider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\surveyservice\\surveymany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\surveyservice\\surveymany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\executes\\surveyservice\\surveyone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\executes\\surveyservice\\surveyone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\trainingprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\trainingprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\employeesurveyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\employeesurveyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\implementations\\useraccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\implementations\\useraccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\service\\results\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7601BF9-0073-4574-AC6A-1E015E94F27F}|Service\\Service.csproj|solutionrelative:service\\results\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Migrations\\20251029124520_InitialSurveyModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBContext\\Migrations\\20251029124520_InitialSurveyModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\wwwroot\\assets\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -105,6 +133,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\phattriennhansu\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{697F6A2E-70FE-4ACB-8F3B-4E1E8C69481B}|PhatTrienNhanSu\\PhatTrienNhanSu.csproj|solutionrelative:phattriennhansu\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|c:\\users\\administrator\\documents\\github\\phattriennhansu\\phattriennhansu\\dbcontext\\migrations\\20251029143643_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98EE486B-B4C2-4F95-A88A-474835BA8CA0}|DBContext\\DBContext.csproj|solutionrelative:dbcontext\\migrations\\20251029143643_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,162 +146,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20251029102658_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Migrations\\20251029102658_InitialCreate.cs",
-              "RelativeDocumentMoniker": "DBContext\\Migrations\\20251029102658_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Migrations\\20251029102658_InitialCreate.cs",
-              "RelativeToolTip": "DBContext\\Migrations\\20251029102658_InitialCreate.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:26:59.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\appsettings.json",
-              "RelativeDocumentMoniker": "PhatTrienNhanSu\\appsettings.json",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\appsettings.json",
-              "RelativeToolTip": "PhatTrienNhanSu\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-29T10:20:12.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Program.cs",
-              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Program.cs",
-              "RelativeToolTip": "PhatTrienNhanSu\\Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:11:56.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyRegistrations.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\MyRegistrations.cshtml",
-              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Training\\MyRegistrations.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\MyRegistrations.cshtml",
-              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Training\\MyRegistrations.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAuwCQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T10:11:37.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\Details.cshtml",
-              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Training\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\Details.cshtml",
-              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Training\\Details.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwDgAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T10:10:41.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T10:09:57.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TrainingController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\TrainingController.cs",
-              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Controllers\\TrainingController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\TrainingController.cs",
-              "RelativeToolTip": "PhatTrienNhanSu\\Controllers\\TrainingController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAgwGMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:08:35.875Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "PhatTrienNhanSu\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:08:20.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TrainingCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingCommand.cs",
-              "RelativeDocumentMoniker": "Service\\Executes\\TrainingService\\TrainingCommand.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingCommand.cs",
-              "RelativeToolTip": "Service\\Executes\\TrainingService\\TrainingCommand.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAkwEEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:03:09.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TrainingOne.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingOne.cs",
-              "RelativeDocumentMoniker": "Service\\Executes\\TrainingService\\TrainingOne.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingOne.cs",
-              "RelativeToolTip": "Service\\Executes\\TrainingService\\TrainingOne.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowCoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:02:48.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TrainingMany.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingMany.cs",
-              "RelativeDocumentMoniker": "Service\\Executes\\TrainingService\\TrainingMany.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingMany.cs",
-              "RelativeToolTip": "Service\\Executes\\TrainingService\\TrainingMany.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:02:36.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TrainingModel.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingModel.cs",
-              "RelativeDocumentMoniker": "Service\\Executes\\TrainingService\\TrainingModel.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\TrainingService\\TrainingModel.cs",
-              "RelativeToolTip": "Service\\Executes\\TrainingService\\TrainingModel.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:01:53.624Z",
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PhatTrienNhanSu\\Properties\\launchSettings.json",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T14:46:45.255Z",
               "EditorCaption": ""
             },
             {
@@ -290,20 +179,346 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "CourseCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\CourseCatalog.cs",
+              "RelativeDocumentMoniker": "DBContext\\Entities\\CourseCatalog.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\CourseCatalog.cs",
+              "RelativeToolTip": "DBContext\\Entities\\CourseCatalog.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T09:48:37.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProviderController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\ProviderController.cs",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Controllers\\ProviderController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\ProviderController.cs",
+              "RelativeToolTip": "PhatTrienNhanSu\\Controllers\\ProviderController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwC0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T14:19:56.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProviderMany.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\ProviderService\\ProviderMany.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\ProviderService\\ProviderMany.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\ProviderService\\ProviderMany.cs",
+              "RelativeToolTip": "Service\\Executes\\ProviderService\\ProviderMany.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T14:30:32.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20251029143643_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Migrations\\20251029143643_Initial.cs",
+              "RelativeDocumentMoniker": "DBContext\\Migrations\\20251029143643_Initial.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Migrations\\20251029143643_Initial.cs",
+              "RelativeToolTip": "DBContext\\Migrations\\20251029143643_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T14:36:44.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\Index.cshtml",
-              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Training\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Training\\Index.cshtml",
-              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Training\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Survey\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Survey\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Survey\\Index.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Survey\\Index.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwFAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T08:11:21.803Z",
+              "WhenOpened": "2025-10-29T08:44:06.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SurveyController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\SurveyController.cs",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Controllers\\SurveyController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\SurveyController.cs",
+              "RelativeToolTip": "PhatTrienNhanSu\\Controllers\\SurveyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:23:54.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Program.cs",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Program.cs",
+              "RelativeToolTip": "PhatTrienNhanSu\\Program.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAiwDQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:35:37.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProviderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\ProviderService\\ProviderCommand.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\ProviderService\\ProviderCommand.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\ProviderService\\ProviderCommand.cs",
+              "RelativeToolTip": "Service\\Executes\\ProviderService\\ProviderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T14:06:45.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProviderOne.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\ProviderService\\ProviderOne.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\ProviderService\\ProviderOne.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\ProviderService\\ProviderOne.cs",
+              "RelativeToolTip": "Service\\Executes\\ProviderService\\ProviderOne.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T14:29:15.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Service.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Service.csproj",
+              "RelativeDocumentMoniker": "Service\\Service.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Service.csproj",
+              "RelativeToolTip": "Service\\Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-29T10:00:40.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SurveyCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\SurveyService\\SurveyCommand.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\SurveyService\\SurveyCommand.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\SurveyService\\SurveyCommand.cs",
+              "RelativeToolTip": "Service\\Executes\\SurveyService\\SurveyCommand.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAAwF0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:06:30.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SurveyModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\SurveyService\\SurveyModel.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\SurveyService\\SurveyModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\SurveyService\\SurveyModel.cs",
+              "RelativeToolTip": "Service\\Executes\\SurveyService\\SurveyModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:05:21.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Catalog.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Survey\\Catalog.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Survey\\Catalog.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Survey\\Catalog.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Survey\\Catalog.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T12:08:09.017Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "EditCatalogItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Survey\\EditCatalogItem.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Survey\\EditCatalogItem.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Survey\\EditCatalogItem.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Survey\\EditCatalogItem.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAmwEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T14:24:21.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateCatalogItem.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Survey\\CreateCatalogItem.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Survey\\CreateCatalogItem.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Survey\\CreateCatalogItem.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Survey\\CreateCatalogItem.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T14:23:59.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProviderModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\ProviderService\\ProviderModel.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\ProviderService\\ProviderModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\ProviderService\\ProviderModel.cs",
+              "RelativeToolTip": "Service\\Executes\\ProviderService\\ProviderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T14:05:52.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Provider\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Provider\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Provider\\Edit.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Provider\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T14:21:39.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Provider\\Create.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Provider\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Provider\\Create.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Provider\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T14:21:18.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Provider\\Index.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Provider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Provider\\Index.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Provider\\Index.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T14:20:54.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SurveyMany.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\SurveyService\\SurveyMany.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\SurveyService\\SurveyMany.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\SurveyService\\SurveyMany.cs",
+              "RelativeToolTip": "Service\\Executes\\SurveyService\\SurveyMany.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:06:15.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SurveyOne.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\SurveyService\\SurveyOne.cs",
+              "RelativeDocumentMoniker": "Service\\Executes\\SurveyService\\SurveyOne.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Executes\\SurveyService\\SurveyOne.cs",
+              "RelativeToolTip": "Service\\Executes\\SurveyService\\SurveyOne.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:05:54.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-29T08:07:46.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\DbContext.cs",
+              "RelativeDocumentMoniker": "DBContext\\DbContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\DbContext.cs",
+              "RelativeToolTip": "DBContext\\DbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBIAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T09:59:50.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TrainingProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingProvider.cs",
+              "RelativeDocumentMoniker": "DBContext\\Entities\\TrainingProvider.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingProvider.cs",
+              "RelativeToolTip": "DBContext\\Entities\\TrainingProvider.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T13:35:29.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EmployeeSurveyResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\EmployeeSurveyResponse.cs",
+              "RelativeDocumentMoniker": "DBContext\\Entities\\EmployeeSurveyResponse.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\EmployeeSurveyResponse.cs",
+              "RelativeToolTip": "DBContext\\Entities\\EmployeeSurveyResponse.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIAwwBoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T09:57:20.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserAccessor.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Implementations\\UserAccessor.cs",
+              "RelativeDocumentMoniker": "Service\\Implementations\\UserAccessor.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Implementations\\UserAccessor.cs",
+              "RelativeToolTip": "Service\\Implementations\\UserAccessor.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:53:02.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "DBContext\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "DBContext\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:49:22.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20251029124520_InitialSurveyModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Migrations\\20251029124520_InitialSurveyModel.cs",
+              "RelativeDocumentMoniker": "DBContext\\Migrations\\20251029124520_InitialSurveyModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Migrations\\20251029124520_InitialSurveyModel.cs",
+              "RelativeToolTip": "DBContext\\Migrations\\20251029124520_InitialSurveyModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:45:20.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "ServiceResult.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Results\\ServiceResult.cs",
               "RelativeDocumentMoniker": "Service\\Results\\ServiceResult.cs",
@@ -311,142 +526,35 @@
               "RelativeToolTip": "Service\\Results\\ServiceResult.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAgwCcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:00:54.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T10:00:54.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwDQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T08:07:46.63Z",
-              "EditorCaption": ""
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\appsettings.json",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\appsettings.json",
+              "RelativeToolTip": "PhatTrienNhanSu\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T10:20:12.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Service",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Service.csproj",
-              "RelativeDocumentMoniker": "Service\\Service.csproj",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\Service\\Service.csproj",
-              "RelativeToolTip": "Service\\Service.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-29T10:00:40.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\DbContext.cs",
-              "RelativeDocumentMoniker": "DBContext\\DbContext.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\DbContext.cs",
-              "RelativeToolTip": "DBContext\\DbContext.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAkwF0AAAABAAAAAAAAAA==",
+              "DocumentIndex": 30,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "PhatTrienNhanSu\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:59:50.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T10:08:20.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EmployeeTrainingRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\EmployeeTrainingRegistration.cs",
-              "RelativeDocumentMoniker": "DBContext\\Entities\\EmployeeTrainingRegistration.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\EmployeeTrainingRegistration.cs",
-              "RelativeToolTip": "DBContext\\Entities\\EmployeeTrainingRegistration.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:58:12.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TrainingCourse.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingCourse.cs",
-              "RelativeDocumentMoniker": "DBContext\\Entities\\TrainingCourse.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingCourse.cs",
-              "RelativeToolTip": "DBContext\\Entities\\TrainingCourse.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA3wC0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:57:55.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "TrainingProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingProgram.cs",
-              "RelativeDocumentMoniker": "DBContext\\Entities\\TrainingProgram.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\TrainingProgram.cs",
-              "RelativeToolTip": "DBContext\\Entities\\TrainingProgram.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA3wCQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:57:35.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EmployeeSurveyResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\EmployeeSurveyResponse.cs",
-              "RelativeDocumentMoniker": "DBContext\\Entities\\EmployeeSurveyResponse.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\EmployeeSurveyResponse.cs",
-              "RelativeToolTip": "DBContext\\Entities\\EmployeeSurveyResponse.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwB8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:57:20.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CourseCatalog.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\CourseCatalog.cs",
-              "RelativeDocumentMoniker": "DBContext\\Entities\\CourseCatalog.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\CourseCatalog.cs",
-              "RelativeToolTip": "DBContext\\Entities\\CourseCatalog.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:48:37.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "SurveyPeriod.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\SurveyPeriod.cs",
-              "RelativeDocumentMoniker": "DBContext\\Entities\\SurveyPeriod.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\DBContext\\Entities\\SurveyPeriod.cs",
-              "RelativeToolTip": "DBContext\\Entities\\SurveyPeriod.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:48:19.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Survey\\Index.cshtml",
-              "RelativeDocumentMoniker": "PhatTrienNhanSu\\Views\\Survey\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\Views\\Survey\\Index.cshtml",
-              "RelativeToolTip": "PhatTrienNhanSu\\Views\\Survey\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAADwvyIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-29T08:44:06.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "script.js",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\wwwroot\\assets\\js\\script.js",
               "RelativeDocumentMoniker": "PhatTrienNhanSu\\wwwroot\\assets\\js\\script.js",
@@ -454,12 +562,11 @@
               "RelativeToolTip": "PhatTrienNhanSu\\wwwroot\\assets\\js\\script.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-29T08:32:31.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T08:32:31.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\GitHub\\Phattriennhansu\\PhatTrienNhanSu\\PhatTrienNhanSu\\wwwroot\\assets\\css\\style.css",
               "RelativeDocumentMoniker": "PhatTrienNhanSu\\wwwroot\\assets\\css\\style.css",
@@ -467,8 +574,7 @@
               "RelativeToolTip": "PhatTrienNhanSu\\wwwroot\\assets\\css\\style.css",
               "ViewState": "AgIAABUAAAAAAAAAAAAcwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-29T08:15:38.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T08:15:38.89Z"
             }
           ]
         }

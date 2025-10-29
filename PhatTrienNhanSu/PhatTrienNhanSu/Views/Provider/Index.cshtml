@@ -1,0 +1,34 @@
+﻿@using PhatTrienNhanSu.Service.Executes.ProviderService.Models
+@model IEnumerable<ProviderDto>
+
+<h1>Quản lý Nhà cung cấp Đào tạo</h1>
+<p><a asp-action="Create" class="btn btn-primary">Thêm mới Nhà cung cấp</a></p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Mã NCC</th>
+            <th>Tên Nhà cung cấp</th>
+            <th>Loại</th>
+            <th>Trạng thái</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProviderCode</td>
+                <td>@item.ProviderName</td>
+                <td>@(item.IsInternal ? "Nội bộ" : "Bên ngoài")</td>
+                <td>@(item.Status == 1 ? "Hoạt động" : "Không hoạt động")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
+                    <form asp-action="Delete" asp-route-id="@item.Id" method="post" class="d-inline" onsubmit="return confirm('Bạn có chắc muốn xóa (ẩn) nhà cung cấp này?');">
+                        <button type="submit" class="btn btn-sm btn-danger">Xóa</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

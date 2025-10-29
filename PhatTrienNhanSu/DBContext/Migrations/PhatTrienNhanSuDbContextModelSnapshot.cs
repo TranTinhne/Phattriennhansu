@@ -24,11 +24,11 @@ namespace DBContext.Migrations
 
             modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.CourseCatalog", b =>
                 {
-                    b.Property<int>("CatalogID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CatalogID"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Area")
                         .HasMaxLength(255)
@@ -44,23 +44,41 @@ namespace DBContext.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<int>("CreatedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal?>("DurationHours")
                         .HasColumnType("decimal(4, 1)");
 
-                    b.Property<string>("Provider")
+                    b.Property<string>("Keyword")
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
+
+                    b.Property<int?>("ProviderID")
                         .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
+                        .HasColumnType("int");
 
-                    b.Property<byte>("Status")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
-                    b.HasKey("CatalogID");
+                    b.Property<int?>("UpdatedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
 
                     b.HasIndex("CourseCode")
                         .IsUnique();
+
+                    b.HasIndex("ProviderID");
 
                     b.ToTable("CourseCatalog");
                 });
@@ -95,9 +113,7 @@ namespace DBContext.Migrations
                         .HasColumnType("bit");
 
                     b.Property<DateTime>("SubmissionDate")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("SurveyPeriodId")
                         .HasColumnType("int");
@@ -109,78 +125,9 @@ namespace DBContext.Migrations
                     b.HasIndex("SurveyPeriodId");
 
                     b.HasIndex("EmployeeID", "CatalogID", "SurveyPeriodId")
-                        .IsUnique()
-                        .HasDatabaseName("IX_Unique_Employee_Survey_Item");
+                        .IsUnique();
 
                     b.ToTable("EmployeeSurveyResponses");
-                });
-
-            modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.EmployeeTrainingRegistration", b =>
-                {
-                    b.Property<int>("RegistrationID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RegistrationID"));
-
-                    b.Property<DateTime?>("ApprovalDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int?>("ApproverId")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("Certificate")
-                        .HasColumnType("bit");
-
-                    b.Property<int>("CourseID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
-
-                    b.Property<int>("EmployeeID")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProgramID")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("RegisterDate")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
-
-                    b.Property<string>("RejectionReason")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
-                    b.Property<float?>("Score")
-                        .HasColumnType("real");
-
-                    b.Property<short>("Status")
-                        .HasColumnType("smallint");
-
-                    b.Property<int?>("UpdatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("RegistrationID");
-
-                    b.HasIndex("CourseID");
-
-                    b.HasIndex("ProgramID");
-
-                    b.HasIndex("EmployeeID", "CourseID")
-                        .IsUnique()
-                        .HasDatabaseName("IX_Unique_Employee_Course_Registration");
-
-                    b.ToTable("EmployeeTrainingRegistrations");
                 });
 
             modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.SurveyPeriod", b =>
@@ -195,12 +142,14 @@ namespace DBContext.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedDate")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Keyword")
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -210,114 +159,53 @@ namespace DBContext.Migrations
                     b.Property<DateTime>("StartDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<byte>("Status")
-                        .HasColumnType("tinyint");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UpdatedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
                     b.ToTable("SurveyPeriods");
                 });
 
-            modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.TrainingCourse", b =>
+            modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.TrainingProvider", b =>
                 {
-                    b.Property<int>("CourseID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CourseID"));
-
-                    b.Property<string>("CourseName")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("CreatedBy")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedDate")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
-
-                    b.Property<decimal?>("Duration")
-                        .HasColumnType("decimal(5, 1)");
-
-                    b.Property<DateTime?>("EndDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Instructor")
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<string>("Location")
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<int>("MaxAttendees")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProgramID")
-                        .HasColumnType("int");
-
-                    b.Property<bool>("RequiresApproval")
+                    b.Property<bool>("IsInternal")
                         .HasColumnType("bit");
 
-                    b.Property<DateTime?>("StartDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("Keyword")
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
-                    b.Property<short>("Status")
-                        .HasColumnType("smallint");
-
-                    b.Property<int?>("UpdatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime?>("UpdatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("CourseID");
-
-                    b.HasIndex("ProgramID");
-
-                    b.ToTable("TrainingCourses");
-                });
-
-            modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.TrainingProgram", b =>
-                {
-                    b.Property<int>("ProgramID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProgramID"));
-
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("datetime2")
-                        .HasDefaultValueSql("GETUTCDATE()");
-
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("EndDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("ProgramCode")
+                    b.Property<string>("ProviderCode")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.Property<string>("ProgramName")
+                    b.Property<string>("ProviderName")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
-                    b.Property<DateTime?>("StartDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<short>("Status")
-                        .HasColumnType("smallint");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<int?>("UpdatedBy")
                         .HasColumnType("int");
@@ -325,12 +213,21 @@ namespace DBContext.Migrations
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ProgramID");
+                    b.HasKey("Id");
 
-                    b.HasIndex("ProgramCode")
+                    b.HasIndex("ProviderCode")
                         .IsUnique();
 
-                    b.ToTable("TrainingPrograms");
+                    b.ToTable("TrainingProviders");
+                });
+
+            modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.CourseCatalog", b =>
+                {
+                    b.HasOne("PhatTrienNhanSu.DbContexts.Entities.TrainingProvider", "Provider")
+                        .WithMany("CourseCatalogs")
+                        .HasForeignKey("ProviderID");
+
+                    b.Navigation("Provider");
                 });
 
             modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.EmployeeSurveyResponse", b =>
@@ -352,36 +249,6 @@ namespace DBContext.Migrations
                     b.Navigation("SurveyPeriod");
                 });
 
-            modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.EmployeeTrainingRegistration", b =>
-                {
-                    b.HasOne("PhatTrienNhanSu.DbContexts.Entities.TrainingCourse", "TrainingCourse")
-                        .WithMany("Registrations")
-                        .HasForeignKey("CourseID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("PhatTrienNhanSu.DbContexts.Entities.TrainingProgram", "TrainingProgram")
-                        .WithMany("Registrations")
-                        .HasForeignKey("ProgramID")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.Navigation("TrainingCourse");
-
-                    b.Navigation("TrainingProgram");
-                });
-
-            modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.TrainingCourse", b =>
-                {
-                    b.HasOne("PhatTrienNhanSu.DbContexts.Entities.TrainingProgram", "TrainingProgram")
-                        .WithMany("TrainingCourses")
-                        .HasForeignKey("ProgramID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("TrainingProgram");
-                });
-
             modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.CourseCatalog", b =>
                 {
                     b.Navigation("SurveyResponses");
@@ -392,16 +259,9 @@ namespace DBContext.Migrations
                     b.Navigation("SurveyResponses");
                 });
 
-            modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.TrainingCourse", b =>
+            modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.TrainingProvider", b =>
                 {
-                    b.Navigation("Registrations");
-                });
-
-            modelBuilder.Entity("PhatTrienNhanSu.DbContexts.Entities.TrainingProgram", b =>
-                {
-                    b.Navigation("Registrations");
-
-                    b.Navigation("TrainingCourses");
+                    b.Navigation("CourseCatalogs");
                 });
 #pragma warning restore 612, 618
         }

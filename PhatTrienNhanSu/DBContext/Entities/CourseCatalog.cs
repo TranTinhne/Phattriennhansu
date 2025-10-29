@@ -4,18 +4,15 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace PhatTrienNhanSu.DbContexts.Entities
 {
     [Table("CourseCatalog")]
-    public class CourseCatalog
+    public class CourseCatalog : BaseEntity
     {
-        [Key]
-        public int CatalogID { get; set; }
-
-        [Required(ErrorMessage = "Mã khóa học là bắt buộc.")]
+        [Required]
         [MaxLength(50)]
-        public string CourseCode { get; set; }
+        public string CourseCode { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Tên khóa học là bắt buộc.")]
+        [Required]
         [MaxLength(255)]
-        public string CourseName { get; set; }
+        public string CourseName { get; set; } = string.Empty;
 
         [MaxLength(255)]
         public string? Area { get; set; }
@@ -26,12 +23,16 @@ namespace PhatTrienNhanSu.DbContexts.Entities
         public decimal? DurationHours { get; set; }
 
         [MaxLength(255)]
-        public string? Provider { get; set; }
+        public int? ProviderID { get; set; } // Khóa ngoại
 
-        // Trạng thái của mục trong danh mục: 1 = Active, 0 = Inactive
-        public byte Status { get; set; }
+        [ForeignKey("ProviderID")]
+        public virtual TrainingProvider? Provider { get; set; } // Thuộc tính điều hướng
 
-        // Mối quan hệ điều hướng: Một mục trong catalog có thể được chọn trong nhiều phiếu khảo sát
+        public CourseCatalog()
+        {
+            Status = 1;
+        }
+
         public virtual ICollection<EmployeeSurveyResponse> SurveyResponses { get; set; } = new List<EmployeeSurveyResponse>();
     }
 }

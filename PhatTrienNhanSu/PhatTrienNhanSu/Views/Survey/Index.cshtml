@@ -1,234 +1,81 @@
-﻿@{
-    ViewData["Title"] = "Khảo sát nhu cầu học tập";
+﻿@using PhatTrienNhanSu.Service.Executes.SurveyService.Models
+@model SurveyFormViewModel
+
+@{
+    ViewData["Title"] = "Khảo sát Nhu cầu Học tập";
 }
 
-<div class="container my-5">
-    <h2 class="text-center text-primary fw-bold mb-4">KHẢO SÁT NHU CẦU HỌC TẬP</h2>
-
-    <p>
-        <strong>(Anh/Chị vui lòng đánh dấu tích</strong> vào chương trình học mình mong muốn được tổ chức,
-        tương ứng với mức độ ưu tiên theo từng lĩnh vực sau đây)
-    </p>
-
-    <div class="table-responsive shadow-sm rounded">
-        <table class="table table-bordered align-middle">
-            <thead class="table-primary">
-                <tr>
-                    <th rowspan="2" class="align-middle">Mã CT</th>
-                    <th rowspan="2" class="align-middle text-start ps-3">
-                        (Anh/Chị vui lòng đánh dấu tích vào chương trình học mình mong muốn được tổ chức, tương ứng với mức độ ưu tiên theo từng lĩnh vực sau đây)
-                    </th>
-                    <th colspan="5" class="align-middle">Tham dự</th>
-                </tr>
-                <tr>
-                    <th>1</th>
-                    <th>2</th>
-                    <th>3</th>
-                    <th>4</th>
-                    <th>5</th>
-                </tr>
-                <!-- Dòng 3: BẮT ĐẦU NGAY TỪ CỘT 1 -->
-                <tr class="table-light small">
-                    <th colspan="2" class="text-start ps-3 fw-normal">
-                        
-                    </th>
-                    <th>Cập nhật kiến thức</th>
-                    <th>Nâng cao kiến thức</th>
-                    <th>Cần thiết</th>
-                    <th>Rất cần thiết</th>
-                    <th>Ưu tiên</th>
-                </tr>
-            </thead>
-            <tbody>
-
-                <!-- 1️⃣ Kiến thức về công ty -->
-                <tr class="table-section bg-light fw-bold">
-                    <td colspan="7">1️⃣ 1. Kiến thức về công ty</td>
-                </tr>
-                <tr>
-                    <td>CT00001</td>
-                    <td>Đào tạo hội nhập</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00002</td>
-                    <td>Văn hóa doanh nghiệp</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-
-                <!-- 2️⃣ Lĩnh vực tài chính - kế toán -->
-                <tr class="table-section bg-light fw-bold">
-                    <td colspan="7">2️⃣ 2. Lĩnh vực tài chính - kế toán</td>
-                </tr>
-                <tr>
-                    <td>CT00003</td>
-                    <td>Quản trị rủi ro & kiểm soát nội bộ</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00004</td>
-                    <td>CFA (Chartered Financial Analyst)</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00005</td>
-                    <td>Kế toán trưởng</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00006</td>
-                    <td>Các vấn đề về thuế GTGT, nhập khẩu</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-
-                <!-- 3️⃣ Hành chính - nhân sự -->
-                <tr class="table-section bg-light fw-bold">
-                    <td colspan="7">3️⃣ 3. Lĩnh vực Hành chính - Nhân sự</td>
-                </tr>
-                <tr>
-                    <td>CT00007</td>
-                    <td>Chương trình đào tạo Mini MBA</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00008</td>
-                    <td>Kỹ năng đào tạo nội bộ</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00009</td>
-                    <td>Kỹ năng lập kế hoạch & quản lý thời gian</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00010</td>
-                    <td>Quản lý và phát triển nhân lực</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-
-                <!-- 4️⃣ Sản xuất - vận hành -->
-                <tr class="table-section bg-light fw-bold">
-                    <td colspan="7">4️⃣ 4. Sản xuất - Vận hành</td>
-                </tr>
-                <tr>
-                    <td>CT00011</td>
-                    <td>Kỹ năng giám sát sản xuất (CPO)</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00012</td>
-                    <td>Chương trình Lean – Six Sigma</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00013</td>
-                    <td>Đào tạo 4P (Process, Product, People, Performance)</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00014</td>
-                    <td>Kỹ năng quản lý chất lượng sản xuất</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-
-                <!-- 5️⃣ Kinh doanh - khách hàng -->
-                <tr class="table-section bg-light fw-bold">
-                    <td colspan="7">5️⃣ 5. Kinh doanh - Khách hàng</td>
-                </tr>
-                <tr>
-                    <td>CT00015</td>
-                    <td>Kỹ năng chăm sóc khách hàng</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00016</td>
-                    <td>Đào tạo chức danh CCO (Chief Customer Officer)</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00017</td>
-                    <td>Kỹ năng đàm phán thương mại</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-                <tr>
-                    <td>CT00018</td>
-                    <td>Quản trị kinh doanh trong thời đại 4.0</td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                    <td class="text-center"><input type="checkbox"></td>
-                </tr>
-
-            </tbody>
-        </table>
+@if (Model != null)
+{
+    <div class="text-center mb-4">
+        <h1 class="display-6">@Model.SurveyPeriodName</h1>
+        <p class="lead">Anh/Chị vui lòng đánh dấu vào chương trình học mình mong muốn được tổ chức.</p>
     </div>
-</div>
+
+    <form asp-action="Index" method="post">
+        @Html.AntiForgeryToken()
+        <input type="hidden" asp-for="SurveyPeriodId" />
+
+        <div class="table-responsive">
+            <table class="table table-bordered align-middle">
+                <thead class="table-light text-center" style="font-size: 0.9rem;">
+                    <tr class="align-middle">
+                        <th style="width: 5%;">Mã CT</th>
+                        <th style="width: 45%;" class="text-start">Tên chương trình</th>
+                        <th>1<br />Cập nhật<br />kiến thức</th>
+                        <th>2<br />Nâng cao<br />kiến thức</th>
+                        <th>3<br />Cần thiết</th>
+                        <th>4<br />Rất cần<br />thiết</th>
+                        <th>5<br />Ưu tiên</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        int areaCounter = 1;
+                    }
+                    @foreach (var areaGroup in Model.AreaGroups)
+                    {
+                        <tr class="table-group-divider">
+                            <td colspan="7" class="table-light">
+                                <strong style="font-size: 1.1rem;">
+                                    @areaCounter. @areaGroup.AreaName
+                                </strong>
+                            </td>
+                        </tr>
+
+                        areaCounter++;
+
+                        @foreach (var item in areaGroup.CatalogItems)
+                        {
+                            var selectionIndex = Model.Selections.FindIndex(s => s.CatalogID == item.CatalogID);
+                            if (selectionIndex >= 0)
+                            {
+                                <input type="hidden" asp-for="Selections[selectionIndex].CatalogID" />
+                                <tr>
+                                    <td>@item.CourseCode</td>
+                                    <td class="text-start">@item.CourseName</td>
+                                    <td class="text-center"><input class="form-check-input" type="checkbox" asp-for="Selections[selectionIndex].LevelUpdateKnowledge"></td>
+                                    <td class="text-center"><input class="form-check-input" type="checkbox" asp-for="Selections[selectionIndex].LevelEnhanceKnowledge"></td>
+                                    <td class="text-center"><input class="form-check-input" type="checkbox" asp-for="Selections[selectionIndex].LevelNecessary"></td>
+                                    <td class="text-center"><input class="form-check-input" type="checkbox" asp-for="Selections[selectionIndex].LevelVeryNecessary"></td>
+                                    <td class="text-center"><input class="form-check-input" type="checkbox" asp-for="Selections[selectionIndex].IsPriority"></td>
+                                </tr>
+                            }
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="mt-4 text-center">
+            <button type="submit" class="btn btn-primary btn-lg">Gửi Phiếu Khảo Sát</button>
+        </div>
+    </form>
+}
+else
+{
+    <div class="alert alert-info text-center" role="alert">
+        <h4 class="alert-heading">Thông báo</h4>
+        <p>@ViewBag.Message</p>
+    </div>
+}

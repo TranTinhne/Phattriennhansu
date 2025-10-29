@@ -4,16 +4,15 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace PhatTrienNhanSu.DbContexts.Entities
 {
     [Table("EmployeeSurveyResponses")]
-    public class EmployeeSurveyResponse
+    public class EmployeeSurveyResponse // Bảng này có thể không cần kế thừa nếu bạn muốn nó khác biệt
     {
         [Key]
         public int ResponseID { get; set; }
 
-        public int EmployeeID { get; set; }
+        public int EmployeeID { get; set; } // Giữ lại EmployeeID riêng
         public int CatalogID { get; set; }
         public int SurveyPeriodId { get; set; }
 
-        // Các lựa chọn của nhân viên
         public bool LevelUpdateKnowledge { get; set; }
         public bool LevelEnhanceKnowledge { get; set; }
         public bool LevelNecessary { get; set; }
@@ -22,11 +21,10 @@ namespace PhatTrienNhanSu.DbContexts.Entities
 
         public DateTime SubmissionDate { get; set; }
 
-        // Mối quan hệ điều hướng
         [ForeignKey("CatalogID")]
-        public virtual CourseCatalog CourseCatalog { get; set; }
+        public virtual CourseCatalog CourseCatalog { get; set; } = null!;
 
         [ForeignKey("SurveyPeriodId")]
-        public virtual SurveyPeriod SurveyPeriod { get; set; }
+        public virtual SurveyPeriod SurveyPeriod { get; set; } = null!;
     }
 }

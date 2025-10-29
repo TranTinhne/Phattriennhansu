@@ -1,0 +1,34 @@
+﻿@using PhatTrienNhanSu.DbContexts.Entities
+@model TrainingProvider
+
+<h1>Chỉnh sửa Nhà cung cấp</h1>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="Id" />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="mb-3">
+                <label asp-for="ProviderCode" class="form-label"></label>
+                <input asp-for="ProviderCode" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="ProviderName" class="form-label"></label>
+                <input asp-for="ProviderName" class="form-control" />
+            </div>
+            <div class="mb-3 form-check">
+                <input class="form-check-input" asp-for="IsInternal" />
+                <label class="form-check-label" asp-for="IsInternal">Là đơn vị nội bộ</label>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Status" class="form-label"></label>
+                <select asp-for="Status" class="form-select">
+                    <option value="1">Hoạt động</option>
+                    <option value="0">Không hoạt động</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+            <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+        </form>
+    </div>
+</div>

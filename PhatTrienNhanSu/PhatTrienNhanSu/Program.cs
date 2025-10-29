@@ -1,23 +1,36 @@
 ﻿// ---- PHẦN KHAI BÁO USING CẦN THIẾT ----
 using Microsoft.EntityFrameworkCore;
 using PhatTrienNhanSu.DbContexts;
-using PhatTrienNhanSu.Service.TrainingService;
+using PhatTrienNhanSu.Service.Executes.SurveyService;
+using PhatTrienNhanSu.Service.Implementations;
+using PhatTrienNhanSu.Service.Interfaces;
+using PhatTrienNhanSu.Service.Executes.ProviderService;
 
 // ---- BẮT ĐẦU CẤU HÌNH ----
 var builder = WebApplication.CreateBuilder(args);
 
 
-// --- BỔ SUNG QUAN TRỌNG: Cấu hình HttpClient để gọi API Nhân sự ---
-// Đăng ký HttpClient để có thể inject vào các service sau này.
-// Việc này rất cần thiết cho các service của bạn để lấy thông tin nhân viên.
+// === Cấu hình HttpClient để gọi API Nhân sự ===
+
+// 1. Đọc chuỗi URL từ cấu hình
+var employeeApiUrl = builder.Configuration["ServiceUrls:EmployeeAPI"];
+
+// 2. Kiểm tra xem chuỗi URL có tồn tại và hợp lệ không
+if (string.IsNullOrEmpty(employeeApiUrl))
+{
+    // Ném ra một exception rõ ràng để ứng dụng dừng lại và báo lỗi.
+    // Điều này tốt hơn nhiều so với việc để ứng dụng chạy với một cấu hình sai.
+    throw new InvalidOperationException("Service URL for 'EmployeeAPI' is not configured in appsettings.json.");
+}
+
+// 3. Đăng ký HttpClient với URL đã được xác thực
 builder.Services.AddHttpClient("EmployeeAPI", client =>
 {
-    // Lấy địa chỉ của API Nhân sự từ file cấu hình
-    client.BaseAddress = new Uri(builder.Configuration["ServiceUrls:EmployeeAPI"]);
+    client.BaseAddress = new Uri(employeeApiUrl);
 });
 
 
-// === PHẦN HIỆN CÓ CỦA BẠN (ĐÃ TỐT) ===
+// === PHẦN HIỆN CÓ CỦA BẠN ===
 // 1. Lấy chuỗi kết nối từ appsettings.json
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
@@ -26,11 +39,16 @@ builder.Services.AddDbContext<PhatTrienNhanSuDbContext>(options =>
     options.UseSqlServer(connectionString));
 
 // 3. Đăng ký các services của bạn (Dependency Injection)
-builder.Services.AddScoped<ITrainingOne, TrainingOne>();
-builder.Services.AddScoped<ITrainingMany, TrainingMany>();
-builder.Services.AddScoped<ITrainingCommand, TrainingCommand>();
-// (Trong tương lai, bạn sẽ đăng ký các service khác ở đây, ví dụ IEmployeeService)
+builder.Services.AddScoped<ISurveyOne, SurveyOne>();
+builder.Services.AddScoped<ISurveyMany, SurveyMany>();
+builder.Services.AddScoped<ISurveyCommand, SurveyCommand>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<IUserAccessor, UserAccessor>();
 
+// Đăng ký các services của Provider
+builder.Services.AddScoped<IProviderOne, ProviderOne>();
+builder.Services.AddScoped<IProviderMany, ProviderMany>();
+builder.Services.AddScoped<IProviderCommand, ProviderCommand>();
 
 // 4. Đăng ký các dịch vụ MVC
 builder.Services.AddControllersWithViews();
@@ -58,6 +76,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Survey}/{action=Index}/{id?}");
 
 app.Run();

@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace PhatTrienNhanSu.Views.Training
+namespace PhatTrienNhanSu.Views.Survey
 {
-    public class DetailsModel : PageModel
+    public class CatalogModel : PageModel
     {
         public void OnGet()
         {

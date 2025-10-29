@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace PhatTrienNhanSu.Views.Training
+namespace PhatTrienNhanSu.Views.Provider
 {
-    public class MyRegistrationsModel : PageModel
+    public class EditModel : PageModel
     {
         public void OnGet()
         {
